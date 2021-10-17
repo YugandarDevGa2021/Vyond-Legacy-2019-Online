@@ -5,23 +5,23 @@
 				<a href="./"><img src="/html/logo.png" /></a>
 			</div>
 			<div>
-				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD YOUR (OUR) WORK </a>
+				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD YOUR WORK </a>
 				<div class="char_dropdown button_small">
-			        <div>COMRAD CREATER</div>
+			        <div>CHARACTER CREATER</div>
 					<menu>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=adam">Guy (Adam)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=eve">Girl (Eve)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=bob">Fat (Bob)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=rocky">Buff (Rocky)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=adam&style=vyond-legacy">Guy (Adam)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=eve&style=vyond-legacy">Girl (Eve)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=bob&style=vyond-legacy">Fat (Bob)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=rocky&style=vyond-legacy">Buff (Rocky)</a>
 						<div></div>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy">Guy</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl">Girl</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy">Guy (Ninja)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl">Girl (Ninja)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy&style=vyond-legacy">Guy</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl&style=vyond-legacy">Girl</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy&style=vyond-legacy">Guy (Ninja)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl&style=vyond-legacy">Girl (Ninja)</a>
 						<div></div>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/cc2?type=default">Lil Peepz</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/chibi?type=default">Chibi Peepz</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninja?type=default">Chibi Ninjas</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/cc2?type=default&style=vyond-legacy">Lil Peepz</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/chibi?type=default&style=vyond-legacy">Chibi Peepz</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninja?type=default&style=vyond-legacy">Chibi Ninjas</a>
 					</menu>
 		                </div>
 				<div class="char_dropdown button_small">
@@ -32,13 +32,13 @@
 
 					</menu>
 				</div>
-				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomaker/full/" class="button_big">MAKE A VIDEO</a>
-				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomakerRedirect?action=goanimate-retro-videomaker-redirect" class="button_big">MAKE A RETRO VIDEO</a>
+				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy" class="button_big">MAKE A VIDEO</a>
+				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomakerRedirect?action=goanimate-retro-videomaker-redirect&style=vyond-legacy" class="button_big">MAKE A RETRO VIDEO</a>
 			</div>
 		</div>
 		<div class="warning">
-			Welcome To Our Animate's Video Maker Comrad!!!! Make Your (Our) Story And Your Comrads. Vist The Main Site If You Need Any Help. Injoy Makeing Your Story. ITS FREE!!!!<br><a
-				href='https://captainargonut24.wixsite.com/ouranimate'>( Link
+			Wellcome to Vyond Legacy 2019 Online! Looks simular to Vyond Legacy 2019 Offline. this revives the legacy video maker using some contents of OurAnimate's GoAPI i created. have fun using it!<br><a
+				href='https://www.vyond.com'>( Link
 				To The Main Site )</a>
 		</div>
 	</header>
@@ -85,7 +85,7 @@
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.insertAdjacentHTML('beforeend',
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a target="_blank" href="https://action-ouranimate.herokuapp.com/go_full?video=' + tbl.id + '"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a target="_blank" href="https://action-ouranimate.herokuapp.com/go_full?video=' + tbl.id + '&style=vyond-legacy"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}
 		}
 
@@ -97,7 +97,7 @@
 		}
 
 		function popup(id) {
-			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+			window.open('/videos/?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
 	</script>
 	<style>
