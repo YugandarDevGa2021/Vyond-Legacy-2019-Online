@@ -326,9 +326,9 @@ transition: none !important;
                     Traditional 2D animation featuring hundreds of vibrant templates, backdrops, characters and actions covering a wide range of industries, occupations, activities and business concepts.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy&theme=business">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=business">Select</a>
                     <br>
-                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/charactercreator/business?style=vyond-legacy">
+                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/business?style=vyond-legacy">
                         Character Creator                    </a>
 
                 </div>
@@ -359,9 +359,9 @@ transition: none !important;
                     Classic whiteboard animation (aka video scribing) powered by GoAnimate simplicity! The dynamic drawing motion keeps audiences captivated while our huge library of templates ensures relevance.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy&theme=whiteboard">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=whiteboard">Select</a>
                     <br>
-                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/charactercreator/whiteboard?style=vyond-legacy">
+                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/whiteboard?style=vyond-legacy">
                         Character Creator                    </a>
 
 
@@ -393,7 +393,7 @@ transition: none !important;
                     Let the power of video bring your data to life! Design and movement are built into every template, to create and sustain engagement. Customize further to make your key points really pop.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy&theme=infographics">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=infographics">Select</a>
 
                 </div>
             </div>
@@ -426,7 +426,7 @@ transition: none !important;
                     The lighter touch. Use this "paper cutout" style with minimal coloring to keep the focus on your content. The huge asset library features thousands of people, places and things.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy&theme=commoncraft">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=commoncraft">Select</a>
 
                 </div>
             </div>
@@ -457,7 +457,7 @@ transition: none !important;
                     Want some of the non business themes back? cartoon classics is the one!                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy&theme=retro&action=goanimate-retro-videomaker-redirect">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=retro&action=goanimate-retro-videomaker-redirect">Select</a>
 
                 </div>
             </div>
