@@ -457,7 +457,7 @@ transition: none !important;
                     Want some of the non business themes back? cartoon classics is the one!                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=retro&action=goanimate-retro-videomaker-redirect">Select</a>
+                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomakerRedirect?action=goanimate-retro-videomaker-redirect&style=vyond-legacy">Select</a>
 
                 </div>
             </div>
