@@ -2,7 +2,7 @@
 	<header>
 		<div>
 			<div>
-				<a href="./"><img src="/html/logo.png" /></a>
+				<a href="./"><img src="//josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png" /></a>
 			</div>
 			<div>
 				<a class="button_small" onclick="document.getElementById('file').click()">UPLOAD YOUR WORK </a>
@@ -32,7 +32,7 @@
 
 					</menu>
 				</div>
-				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomaker/full/?style=vyond-legacy" class="button_big">MAKE A VIDEO</a>
+				<a target="_blank" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker?style=vyond-legacy" class="button_big">MAKE A VIDEO</a>
 				<a target="_blank" href="https://action-ouranimate.herokuapp.com/videomakerRedirect?action=goanimate-retro-videomaker-redirect&style=vyond-legacy" class="button_big">MAKE A RETRO VIDEO</a>
 			</div>
 		</div>
@@ -85,7 +85,7 @@
 				const tbl = json[c];
 				const date = tbl.date.substr(0, 10) + ' ' + tbl.date.substr(11);
 				tbody.insertAdjacentHTML('beforeend',
-					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a target="_blank" href="https://action-ouranimate.herokuapp.com/go_full?video=' + tbl.id + '&style=vyond-legacy"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
+					'<tr><td><img src="/movie_thumbs/' + tbl.id + '"></td><td><div>' + tbl.title + '</div><div>' + tbl.durationString + '</div></div></td><td><span>' + date.match(/./g).join('</span><span>') + '</span></td><td><a href="javascript:;" onclick="popup(\'' + tbl.id + '\')"></a><a target="_blank" href="https://action-ouranimate.herokuapp.com/videomaker/full/editcheck?video=' + tbl.id + '&style=vyond-legacy"></a><a href="/movies/' + tbl.id + '.xml" download="' + tbl.title + '"></a></td></tr>');
 			}
 		}
 
@@ -97,7 +97,7 @@
 		}
 
 		function popup(id) {
-			window.open('/videos/?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
+			window.open('/player?movieId=' + id, 'MsgWindow', 'width=1280,height=720,left=' + (screen.width / 2 - 640) + ',top=' + (screen.height / 2 - 360));
 		}
 	</script>
 	<style>
