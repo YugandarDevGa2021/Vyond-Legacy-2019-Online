@@ -2,28 +2,28 @@
 	"GET": {
 		"/index.html": {
 			"headers": {
-				"Location": "https://action-ouranimate.herokuapp.com/dashboard/videos"
+				"Location": "https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/html/list.html": {
 			"headers": {
-				"Location": "https://action-ouranimate.herokuapp.com/character_creator"
+				"Location": "https://action-ouranimate.herokuapp.com/charactercreator"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/$": {
 			"headers": {
-				"Location": "https://action-ouranimate.herokuapp.com/dashboard/videos"
+				"Location": "https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos"
 			},
 			"statusCode": 302,
 			"content": ""
 		},
 		"/go/character_creator": {
 			"headers": {
-				"Location": "https://action-ouranimate.herokuapp.com/character_creator"
+				"Location": "https://action-ouranimate.herokuapp.com/charactercreator"
 			},
 			"statusCode": 302,
 			"content": ""
@@ -40,7 +40,7 @@
 		"char_default.png": {
 			"content": "{\"message\":\"REQUEST_HAS_EXPIRED\"}"
 		},
-		"ecwiogerhgobuidgfghboudiflbgih/(.*)": {
+		"rewoghbetghiutghtehgter8ogheo8rg/(.*)": {
 			"headers": {
 				"Content-Type": "text/html; charset=UTF-8"
 			}
