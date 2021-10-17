@@ -356,9 +356,9 @@ transition: none !important;
                     Classic whiteboard animation (aka video scribing) powered by Vyond simplicity! The dynamic drawing motion keeps audiences captivated while our huge library of templates ensures relevance.                </div>
 
                  <div class="theme__content__cta hidden-mobile">
-                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?theme=custom&style=vyond-legacy">Select</a>
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?theme=whiteboard&style=vyond-legacy">Select</a>
 
-                        <a target="_blank" class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/family?style=vyond-legacy">
+                        <a target="_blank" class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/whiteboard?style=vyond-legacy">
                         Character Creator                    </a>
 
                 </div>
