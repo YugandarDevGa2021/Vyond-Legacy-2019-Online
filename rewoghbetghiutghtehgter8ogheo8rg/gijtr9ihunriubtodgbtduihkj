@@ -9,19 +9,19 @@
 				<div class="char_dropdown button_small">
 			        <div>CHARACTER CREATER</div>
 					<menu>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=adam&style=vyond-legacy">Guy (Adam)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=eve&style=vyond-legacy">Girl (Eve)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=bob&style=vyond-legacy">Fat (Bob)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/family?type=rocky&style=vyond-legacy">Buff (Rocky)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/family?type=adam">Guy (Adam)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/family?type=eve">Girl (Eve)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/family?type=bob">Fat (Bob)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/family?type=rocky">Buff (Rocky)</a>
 						<div></div>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy&style=vyond-legacy">Guy</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl&style=vyond-legacy">Girl</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=guy&style=vyond-legacy">Guy (Ninja)</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninjaanime?type=girl&style=vyond-legacy">Girl (Ninja)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/ninjaanime?type=guy">Guy</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/ninjaanime?type=girl">Girl</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/ninjaanime?type=guy">Guy (Ninja)</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/ninjaanime?type=girl">Girl (Ninja)</a>
 						<div></div>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/cc2?type=default&style=vyond-legacy">Lil Peepz</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/chibi?type=default&style=vyond-legacy">Chibi Peepz</a>
-						<a target="_blank" href="https://action-ouranimate.herokuapp.com/character_creator/ninja?type=default&style=vyond-legacy">Chibi Ninjas</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/cc2?type=default">Lil Peepz</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/chibi?type=default">Chibi Peepz</a>
+						<a target="_blank" href="https://action-ouranimate.herokuapp.com/charactercreator/ninja?type=default">Chibi Ninjas</a>
 					</menu>
 		                </div>
 				<div class="char_dropdown button_small">
