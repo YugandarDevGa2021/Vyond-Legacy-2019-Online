@@ -86,7 +86,7 @@ module.exports = function (req, res, url) {
 	}
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
-	res.end(`<link href="/html/css/oldglobal.css" rel="stylesheet" type="text/css"><script>document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px"><div class="warning">You need an account in order to add voices, save, and view your videos! <a href="https://action-ouranimate.herokuapp.com/signup">Get One Now!</a> <a href="https://action-ouranimate.herokuapp.com/login">Login</a></div>${toObjectString(attrs, params)
+	res.end(`<link href="/html/css/oldglobal.css" rel="stylesheet" type="text/css"><script>document.title='${title}',flashvars=${JSON.stringify(params.flashvars)}</script><body style="margin:0px"><div class="warning">You need an account in order to add voices, save, and view your videos! <a href="https://action-ouranimate.herokuapp.com/signup">Get One Now!</a> <a href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/previewVideoMaker/theme/light&from=preview-video-maker">Login</a></div>${toObjectString(attrs, params)
 		}</body>${stuff.pages[url.pathname] || ''}`);
 	return true;
 }
