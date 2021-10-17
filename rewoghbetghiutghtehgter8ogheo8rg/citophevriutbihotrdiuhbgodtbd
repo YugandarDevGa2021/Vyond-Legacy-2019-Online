@@ -1,5 +1,3 @@
-
-  
 <!DOCTYPE html>
 <html><head>
 <meta charset="utf-8">
@@ -128,7 +126,7 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="/pages/html/list.html" title="Vyond">
+                  <a class="navbar-brand" target="_blank" href="https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos" title="Vyond">
                       <img alt="Vyond" src="https://d3v4eglovri8yt.cloudfront.net/static/204877ced07e5539/go/img/vyond/vyond_logo_legacy.png">
                   </a>
             </div>
@@ -143,10 +141,10 @@ if (self !== top) {
             <a href="#" onclick="zE.activate({hideOnClose: true});amplitudeTrackCtaHelp('quick_search');return false;">Quick Search</a>
         </li>
         <li>
-            <a href="https://josephcrosmanplays532.github.io/help" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
+            <a href="https://josephcrosmanplays532.github.io/help" target="_blank" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
         </li>
         <li>
-            <a href="https://josephcrosmanplays532.github.io/whatsnew" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
+            <a href="https://josephcrosmanplays532.github.io/whatsnew" target="_blank" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
         </li>
     </ul>
 </li>
@@ -157,11 +155,11 @@ if (self !== top) {
     });
 </script>
 <li>
-                        <a class="hidden-sm hidden-md hidden-lg" href="/pages/html/ga.vyond-styleselect.html">Make a Video</a>
-                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/pages/html/ga.vyond-styleselect.html">Make a Video</a></span>
+                        <a class="hidden-sm hidden-md hidden-lg" target="_blank" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" target="_blank" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker">Make a Video</a></span>
 </li>
 <li class="dropdown">
-    <a class="dropdown-toggle" href="https://app.vyond.com/v2/profile?_ga=2.267592910.1787275047.1622475828-1109201905.1622475828" data-toggle="dropdown" aria-expanded="false">
+    <a class="dropdown-toggle" target="_blank" href="https://app.vyond.com/v2/profile?_ga=2.267592910.1787275047.1622475828-1109201905.1622475828" data-toggle="dropdown" aria-expanded="false">
         <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
         <div class="site-nav__profile-image">
             <div class="site-nav__profile-image">
@@ -174,17 +172,17 @@ if (self !== top) {
             <div class="dropdown-user-profile__display-name">
                 User 1            </div>
             <div class="dropdown-user-profile__status">
-                Free Trial | <a href="https://www.vyond.com/pricing">Upgrade now</a>            </div>
+                Free Trial | <a target="_blank" href="https://www.vyond.com/pricing">Upgrade now</a>            </div>
         </li>
         <li class="divider"></li>
-        <li><a href="https://app.vyond.com/v2/profile">Profile Settings</a></li>
-        <li><a href="https://app.vyond.com/v2/users/list">Users</a></li>
-        <li><a href="https://app.vyond.com/v2/security">Security</a></li>
-        <li><a href="https://app.vyond.com/v2/subscription">Subscription</a></li>
+        <li><a target="_blank" href="https://app.vyond.com/v2/profile">Profile Settings</a></li>
+        <li><a target="_blank" href="https://app.vyond.com/v2/users/list">Users</a></li>
+        <li><a target="_blank" href="https://app.vyond.com/v2/security">Security</a></li>
+        <li><a target="_blank" href="https://app.vyond.com/v2/subscription">Subscription</a></li>
         <li class="divider"></li>
-        <li><a href="https://vyondstudio.herokuapp.com/video/list" onclick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
+        <li><a target="_blank" href="https://vyondstudio.herokuapp.com/video/list" onclick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
         <li class="divider"></li>
-        <li><a class="gtm-logout" href="https://www.vyond.com/">Log Out</a></li>
+        <li><a class="gtm-logout"target="_blank" href="https://action-ouranimate.herokuapp.com/logoff">Log Out</a></li>
     </ul>
 </li>
 
@@ -286,10 +284,9 @@ transition: none !important;
         </div>
     </div>
 </div>
-
 <div class="theme-selection">
-
 <div class="container">
+
 
 
     <div class="page-header">
@@ -299,7 +296,7 @@ transition: none !important;
     <div class="carousel slide theme-carousel" id="theme-carousel" data-interval="false">
         <ol class="carousel-indicators theme-carousel__indicators">
             <li class="active" data-target="#theme-carousel" data-slide-to="0"></li>
-            <li data-target="#theme-carousel" data-slide-to="1"></li>
+            <li data-target="#theme-carousel" data-slide-to="1" class=""></li>
         </ol>
 
         <div class="theme-carousel__inner">
@@ -309,13 +306,13 @@ transition: none !important;
         <div class="theme">
             <div class="theme__top">
                 <div class="visible-xs">
-                    <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/bf.png">
+                    <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/bf.png">
                 </div>
                 <div class="hidden-xs">
-                    <video class="theme__top__video" poster="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/bf.png" loop preload="none">
-                        <source src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/bf.mp4" type="video/mp4">
+                    <video class="theme__top__video" poster="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/bf.png" loop="" preload="none">
+                        <source src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/bf.mp4" type="video/mp4">
 
-                        <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/bf.png">
+                        <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/bf.png">
                     </video>
                 </div>
             </div>
@@ -326,9 +323,9 @@ transition: none !important;
                     Traditional 2D animation featuring hundreds of vibrant templates, backdrops, characters and actions covering a wide range of industries, occupations, activities and business concepts.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=business">Select</a>
-                    <br>
-                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/business?style=vyond-legacy">
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="/go_full?tray=business">Select</a>
+
+                        <a target="_blank" class="theme__cc-link" href="/charactercreator/?themeId=business">
                         Character Creator                    </a>
 
                 </div>
@@ -342,13 +339,13 @@ transition: none !important;
         <div class="theme">
             <div class="theme__top">
                 <div class="visible-xs">
-                    <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/wb.png">
+                    <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/wb.png">
                 </div>
                 <div class="hidden-xs">
-                    <video class="theme__top__video" poster="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/wb.png" loop preload="none">
-                        <source src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/wb.mp4" type="video/mp4">
+                    <video class="theme__top__video" poster="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/wb.png" loop="" preload="none">
+                        <source src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/wb.mp4" type="video/mp4">
 
-                        <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/wb.png">
+                        <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/wb.png">
                     </video>
                 </div>
             </div>
@@ -356,12 +353,12 @@ transition: none !important;
                 <h3 class="theme__content__title">Whiteboard Animation</h3>
 
                 <div class="theme__content__description">
-                    Classic whiteboard animation (aka video scribing) powered by GoAnimate simplicity! The dynamic drawing motion keeps audiences captivated while our huge library of templates ensures relevance.                </div>
+                    Classic whiteboard animation (aka video scribing) powered by Vyond simplicity! The dynamic drawing motion keeps audiences captivated while our huge library of templates ensures relevance.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=whiteboard">Select</a>
-                    <br>
-                    <a class="theme__cc-link" href="https://action-ouranimate.herokuapp.com/login?returnTo=/charactercreator/whiteboard?style=vyond-legacy">
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="/go_full?tray=custom">Select</a>
+		    
+                                                 <a target="_blank" class="theme__cc-link" href="/charactercreator/?themeId=family">
                         Character Creator                    </a>
 
 
@@ -376,13 +373,13 @@ transition: none !important;
         <div class="theme">
             <div class="theme__top">
                 <div class="visible-xs">
-                    <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/ig.png">
+                    <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/ig.png">
                 </div>
                 <div class="hidden-xs">
-                    <video class="theme__top__video" poster="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/ig.png" loop preload="none">
-                        <source src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/ig.mp4" type="video/mp4">
+                    <video class="theme__top__video" poster="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/ig.png" loop="" preload="none">
+                        <source src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/ig.mp4" type="video/mp4">
 
-                        <img class="img-responsive center-block" src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/videomaker/v3/themes/ig.png">
+                        <img class="img-responsive center-block" src="http://web.archive.org/web/20170817100905im_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/img/videomaker/v3/themes/ig.png">
                     </video>
                 </div>
             </div>
@@ -393,7 +390,7 @@ transition: none !important;
                     Let the power of video bring your data to life! Design and movement are built into every template, to create and sustain engagement. Customize further to make your key points really pop.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=infographics">Select</a>
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="/go_full?tray=infographics">Select</a>
 
                 </div>
             </div>
@@ -426,7 +423,7 @@ transition: none !important;
                     The lighter touch. Use this "paper cutout" style with minimal coloring to keep the focus on your content. The huge asset library features thousands of people, places and things.                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomaker/full/?style=vyond-legacy&theme=commoncraft">Select</a>
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="/videomaker/full/?tray=animal">Select</a>
 
                 </div>
             </div>
@@ -457,7 +454,7 @@ transition: none !important;
                     Want some of the non business themes back? cartoon classics is the one!                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                    <a class="btn btn-lg btn-orange text-uppercase" href="https://action-ouranimate.herokuapp.com/login?returnTo=/videomakerRedirect?action=goanimate-retro-videomaker-redirect&style=vyond-legacy">Select</a>
+                    <a target="_blank" class="btn btn-lg btn-orange text-uppercase" href="/videomaker/full/?tray=retro">Select</a>
 
                 </div>
             </div>
@@ -549,44 +546,10 @@ $(function() {
 });
 </script>
 
-<script src="https://web.archive.org/web/20180325175758js_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/js/video_maker.js.gz.js"></script>
-
-<div id="trial-expired-overlay" class="modal" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title">Oh, your subscription has expired</h3>
-            </div>
-
-            <div class="modal-body text-center">
-                <div class="trial-upsell trial-upsell-expired">
-                    <h2><img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/trial/lock.png" alt=""> Subscribe now to unlock your account</h2>
-
-                    <p class="text-feature">
-                        Edit and download your videos in HD<br>
-                        Access all GoAnimate templates<br>
-                        Create unlimited characters<br>
-                        Use 1-click publishing                    </p>
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <a class="btn btn-orange" href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans?hook=preview.site">View Plans &amp; Pricing</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="modal" id="payment-license-overlay"></div>
-
-
-
-<!-- FOOTER -->
-
+<script src="http://web.archive.org/web/20170817100905js_/https://d3v4eglovri8yt.cloudfront.net/static/c4b4e28259fa6824/go/js/video_maker.js"></script>
 <footer class="site-footer">
     <div class="container">
-        Vyondâ„¢ is a trademark of GoAnimate. Inc. Â©2018 GoAnimate. Inc. <a href="https://www.vyond.com/terms">Terms of Service</a> | <a href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookies Policy</a>
+        Vyondâ„¢ is a trademark of GoAnimate. Inc. Â©2018 GoAnimate. Inc. <a target="_blank" href="https://www.vyond.com/terms">Terms of Service</a> | <a target="_blank" href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookies Policy</a>
     </div>
 
 </footer>
@@ -595,419 +558,10 @@ $(function() {
 <div id="studio_container" style="display: none;">
     <div id="studio_holder"><!-- Full Screen Studio -->
         <div style="top: 50%; position: relative;">
-            You can't use GoAnimate because Flash might be disabled. <a href="https://web.archive.org/web/20180325175758/https://get.adobe.com/flashplayer/">Enable Flash</a>.
+            You can't use Vyond because Flash might be disabled. <a href="https://get.adobe.com/flashplayer/">Enable Flash</a>.
         </div>
     </div>
 </div>
-
-<div class="modal upsell-modal" id="upsell-modal" data-page="videomaker" role="dialog" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h3 class="modal-title">Upgrade to unlock more features</h3>
-            </div>
-            <div class="modal-body">
-                <div class="upsell-features-wrapper ">
-                    <div class="upsell-features">
-                        <div class="upsell-feature commercial-license">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide8_commerciallic_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Commercial License for Business Use</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Get the commercial rights to use your video for business purposes.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Limited commercial rights</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Full commercial rights</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Full commercial rights</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature business-style">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide3_bizexestyle_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Business Exclusive Themes</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Access relevant characters, backgrounds and props representing a wide range of industries.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Access to all themes</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Access to all themes</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Access to all themes</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature unlimited-duration">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide2_unlimitedvideo_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Unlimited Video Duration</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Produce both short form and long form videos with ease using out Video.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt; 30 seconds</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited <i class="i-upsell-info" title="Excludes exclusive business themes"></i></div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature download-video">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide5_downloadexport_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Download and Export Your Videos</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Download your video as an mp4 or export directly to our partner sites.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">Up to 360p</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Up to 720p</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Up to 1080p</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Up to 1080p</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature watermark">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide4_watermark_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Logo Management</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Replace our logo with your own, or remove the watermark completely.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">GoAnimate Logo</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">GoAnimate Logo</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">GoAnimate Logo</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Remove/Replace Watermark <i class="i-upsell-info" title="Work with multiple logos, assigning different logos to the watermark in different videos, or remove the watermark entirely"></i></div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Remove/Replace Watermark <i class="i-upsell-info" title="Work with multiple logos, assigning different logos to the watermark in different videos, or remove the watermark entirely"></i></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature character">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide1_cc_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Huge Cast of Characters</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Use any of our library characters, or customize at will with our character creators.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">Limited <i class="i-upsell-info" title="Excludes exclusive business theme character creators"></i></div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature version-control">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide6_versioncontrol_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Version Control</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Roll back to an earlier, saved-over copy with ease or manage multiple versions.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">N/A</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Available</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Available</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Available</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature qvm-contents">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide7_qvm_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Premium Templates Content</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Access our premium characters and settings, or use your own custom characters in our Templates.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">Limited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">Unlimited</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-
-                        <div class="upsell-feature qvm-duration">
-                            <div class="upsell-feature-body">
-                                <div class="upsell-feature-image">
-                                    <img src="https://web.archive.org/web/20180325175758im_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/img/upsell/slide9_templates_icon.png">
-                                </div>
-                                <div class="upsell-feature-title">
-                                    <h2>Longer Video Duration for Templates</h2>
-                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Extend your scenes with up to 30 lines of dialog when using our Templates.</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div class="text-right">
-                                    <a href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans">Full comparison &gt;</a>
-                                </div>
-
-                                <ul class="upsell-plan-comparison clearfix">
-                                    <li class="dim">
-                                        <div class="upsell-plan-name">Free<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt;10 lines</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt;30 lines <i class="i-upsell-info" title="Excludes exclusive business theme templates"></i></div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt;30 lines</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt;30 lines</div>
-                                    </li>
-                                    <li>
-                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
-                                        <div class="upsell-plan-data">&lt;30 lines</div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <a class="upsell-arrow left" href="#"></a>
-                <a class="upsell-arrow right" href="#"></a>
-
-                <ol class="upsell-index">
-                    <li class="active"><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                    <li><span class="upsell-index-dot"></span></li>
-                </ol>
-            </div>
-            <div class="modal-footer">
-
-                <button class="btn btn-orange btn-cta" type="button" data-dismiss="modal">Try Now</button>
-
-                <a class="btn btn-default btn-upsell" href="https://web.archive.org/web/20180325175758/https://goanimate.com/business/videoplans?hook=upsell.site">Subscribe</a>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<script src="https://web.archive.org/web/20180325175758js_/https://d3v4eglovri8yt.cloudfront.net/static/c98cc7236e589bc2/go/js/upsell.js.gz.js"></script>
 
 </div>
 <!-- END OF PAGE STRUCTURE -->
@@ -1020,35 +574,169 @@ $(function() {
     </script>
 
 <script type="text/javascript">
-    function logSendShareToGA() {
-        dataLayer.push({
-            'event': 'ga-pageview-t1',
-            'path': '/pageTracker/goals/reg/contactform'
-        });
-    }
 
 </script>
+<style>
+    table {
+			width: 100%;
+			max-width: 100%;
+			margin-bottom: 0px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 0px;
+			background-color: transparent;
+			border-collapse: collapse;
+			border-spacing: 0;
+			font-size: 14px;
+		}
 
+		@media(min-width: 768px) {
+			table {
+				width: 750px;
+			}
+		}
+
+		@media(min-width: 992px) {
+			table {
+				width: 970px;
+			}
+		}
+
+		@media(min-width: 400px) {
+			table {
+				width: 750px;
+			}
+		}
+
+		thead {
+			font-weight: 200;
+		}
+
+		td {
+			padding: 8px;
+			vertical-align: middle;
+			line-height: 1.42857143;
+		}
+
+		thead {
+			border-bottom: 2px solid #ddd;
+			border-top: 1px solid #ddd;
+		}
+
+		tbody>tr {
+			border-top: 0;
+			border-bottom: 1px solid #ddd;
+		}
+
+		tbody>tr:hover {
+			background-color: #f5f5f5;
+		}
+
+		tr>:nth-child(1) {
+			width: 64px;
+		}
+
+		tr>:nth-child(1)>img {
+			height: 36px;
+		}
+
+		tr>:nth-child(1) {
+			word-break: break-word;
+		}
+
+		tr>:nth-child(2) {
+			color: #999;
+		}
+
+		tr>:nth-child(3) {
+			width: 250px;
+		}
+
+		tr>:nth-child(3)>* {
+			display: inline-block;
+			text-align: center;
+			font-size: 12px;
+			width: 8.5px;
+		}
+
+		tr>:nth-child(4) {
+			font-family: 'GlyphiconsRegular';
+			text-decoration: none;
+			padding-top: 5px;
+			font-size: 14px;
+			width: 80px;
+		}
+
+		tr>:nth-child(4)>a {
+			display: inline-block;
+			text-decoration: none;
+			padding-right: 10px;
+			color: #474747;
+		}
+
+		tr>:nth-child(4)>a:hover {
+			color: #2d9e88;
+		}
+
+		tr>:nth-child(4)>:nth-child(1)::before {
+			content: '\E174';
+		}
+
+		tr>:nth-child(4)>:nth-child(2)::before {
+			content: '\E235';
+		}
+
+		tr>:nth-child(4)>:nth-child(3)::before {
+			content: '\E182';
+		}
+
+		tfoot>tr>td {
+			text-align: center;
+			border: none;
+		}
+
+		tfoot>tr>td>a {
+			text-decoration: none;
+			color: #474747;
+			font-size: 14px;
+		}
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 100;
+			src: url('/html/Sailec-Thin.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 200;
+			src: url('/html/Sailec-Light.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 400;
+			src: url('/html/Sailec-Regular.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 500;
+			src: url('/html/Sailec-Medium.woff') format('woff');
+		}
+
+		/* font weight 500 and font weight 700 (bold) are the same for better integration support */
+		@font-face {
+			font-family: 'Sailec';
+			font-weight: 700;
+			src: url('/html/Sailec-Medium.woff') format('woff');
+		}
+
+		@font-face {
+			font-family: 'GlyphiconsRegular';
+			src: url('/html/glyphicons-regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+    </style>
 </body>
 </html>
-<!--
-     FILE ARCHIVED ON 17:57:58 Mar 25, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:43:51 Oct 17, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
--->
-<!--
-playback timings (ms):
-  captures_list: 91.554
-  exclusion.robots: 0.428
-  exclusion.robots.policy: 0.409
-  RedisCDXSource: 1.061
-  esindex: 0.018
-  LoadShardBlock: 53.768 (3)
-  PetaboxLoader3.datanode: 49.729 (4)
-  CDXLines.iter: 23.951 (3)
-  load_resource: 51.601
-  PetaboxLoader3.resolve: 26.27
--->
