@@ -41,7 +41,7 @@ module.exports = function (req, res, url) {
 					'clientThemePath': 'https://josephcrosmanplays532.github.io/static/477/<client_theme>', 'themeId': 'business', 
 					'tlang': 'en_US',
 					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'tray': 'retro', 
-					'nextUrl': 'https://action-ouranimate.herokuapp.com/dashboard/videos',
+					'nextUrl': 'https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos',
 				},
 				movie: 'https://josephcrosmanplays532.github.io/animation/503/go_full.swf',
 			};
