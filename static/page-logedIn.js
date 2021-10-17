@@ -57,7 +57,7 @@ module.exports = function (req, res, url) {
 					'retut': 1, 'tray': 'custom',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
 					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 
-					'nextUrl': 'https://action-ouranimate.herokuapp.com/dashboard/videos',
+					'nextUrl': 'https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos',
 				},
 				allowScriptAccess: 'always',
 			};
