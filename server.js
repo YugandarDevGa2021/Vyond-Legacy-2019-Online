@@ -11,6 +11,7 @@ const asu = require('./asset/upload');
 const stl = require('./static/load');
 const stp = require('./static/page');
 const stg = require('./static/page-logedIn');
+const sto = require('./static/pageStudio');
 const asl = require('./asset/load');
 const asL = require('./asset/list');
 const ast = require('./asset/thmb');
@@ -47,6 +48,7 @@ const functions = [
 	mvu,
 	stp,
 	stg,
+	sto,
 	stl,
 ];
 
