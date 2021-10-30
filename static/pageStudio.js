@@ -290,7 +290,7 @@ function voiceBanner(bannerId) {
 
     <div id="previewPlayerContainer" style="display: none;">
         <div class="preview-player" id="previewPlayer">
-            <h2>Powered by Vyond &amp; Kenny Animate</h2>
+            <h2>Preview Video</h2>
             
             <div id="playerdiv"><object data="https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1a/player.swf" type="application/x-shockwave-flash" id="Player" width="640" height="360"><param name="quality" value="high"/><param name="scale" value="exactfit"/><param name="allowScriptAccess" value="always"/><param name="allowFullScreen" value="true"/><param name="wmode" value="window"/><param name="flashvars" value="movieOwner=&amp;movieOwnerId=&amp;movieId=&amp;ut=-1&amp;movieLid=8&amp;movieTitle=&amp;movieDesc=&amp;userId=&amp;username=&amp;uemail=&amp;apiserver=https%3A%2F%2Fga.vyond.com%2F&amp;thumbnailURL=&amp;copyable=0&amp;isPublished=0&amp;ctc=go&amp;tlang=en_US&amp;is_private_shared=0&amp;autostart=1&amp;appCode=go&amp;is_slideshow=0&amp;originalId=0&amp;is_emessage=0&amp;isEmbed=0&amp;refuser=&amp;utm_source=&amp;uid=&amp;isTemplate=1&amp;showButtons=0&amp;chain_mids=&amp;showshare=0&amp;averageRating=&amp;s3base=https%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2F%2Chttps%3A%2F%2Fassets.vyond.com%2F&amp;ratingCount=&amp;fb_app_url=https%3A%2F%2Fga.vyond.com%2F&amp;numContact=0&amp;isInitFromExternal=1&amp;storePath=https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fstore%2F3a981f5cb2739137%2F%3Cstore%3E&amp;clientThemePath=https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fstatic%2F55910a7cd204c37c%2F%3Cclient_theme%3E&amp;animationPath=https%3A%2F%2Fjosephcrosmanplays532.github.io%2Fanimation%2F66453a3ba2cc5e1a%2F&amp;startFrame=1"/><param name="movie" value="https://josephcrosmanplays532.github.io/animation/66453a3ba2cc5e1a/player.swf"/></object></div>
             <div id="h5-playerdiv">
@@ -331,6 +331,7 @@ function voiceBanner(bannerId) {
             <div id="preview-alert-block" class="preview-alert-block clearfix" style="display: none;">Auto-pause at end of scenes is not supported in our web video player.<br/>The auto-pause feature is supported once you download the video as presentation in the &#34;Share/Export&#34; overlay.</div>
             <div class="buttons clearfix">
                 <button class="preview-button edit" type="button" onclick="switchBackToStudio();">Continue Editing</button>
+		<button class="preview-button save" type="button" onclick="publishStudio();">Save Now</button>
                             </div>
 
             <a class="close_btn" href="#" onclick="switchBackToStudio(); return false;">×</a>
