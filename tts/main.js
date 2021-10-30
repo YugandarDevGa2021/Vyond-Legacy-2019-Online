@@ -32,8 +32,9 @@ module.exports = function (voiceName, text) {
 				break;
 			}
 			case 'cepstral':
+			// the revival of voiceforge is in beta online. this may not work.
 			case 'voiceforge': {
-				https.get('https://www.voiceforge.com/demo', r => {
+				https.get('https://action-ouranimate.herokuapp.com/revive', r => {
 					const cookie = r.headers['set-cookie'];
 					var q = qs.encode({
 						voice: voice.arg,
@@ -41,8 +42,8 @@ module.exports = function (voiceName, text) {
 					});
 					var buffers = [];
 					var req = https.get({
-						host: 'www.voiceforge.com',
-						path: `/demos/createAudio.php?${q}`,
+						host: 'action-ouranimate.herokuapp.com',
+						path: `/revive/voiceforge/speech.php?${q}`,
 						headers: { Cookie: cookie },
 						method: 'GET',
 					}, r => {
