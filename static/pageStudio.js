@@ -11,7 +11,7 @@ function toParamString(table) {
 		`<param name="${key}" value="${toAttrString(table[key])}">`
 	).join(' ');
 }
-function toObjectString(attrs, params, navbar) {
+function toObjectString(attrs, params) {
 	return `<object id="obj" ${Object.keys(attrs).map(key =>
 		`${key}="${attrs[key].replace(/"/g, "\\\"")}"`
 	).join(' ')}>${toParamString(params)}</object>`;
@@ -26,7 +26,7 @@ module.exports = function (req, res, url) {
 		case '/videomaker/full/': {
 			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
 				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
-			title = 'The Video Maker from Vyond Remastered - Make a Video for YouTube!';
+			title = 'The Video Maker from Vyond - Make a Video for YouTube!';
 			attrs = { 
 				data: process.env.SWF_URL + '/go_full.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
@@ -273,7 +273,7 @@ function voiceBanner(bannerId) {
         var enable_full_screen = true;
         var studio_data = {
             id: "Studio",
-            swf: "/static/animation/go_full.swf",
+            swf: "https://josephcrosmanplays532.github.io/Vyond-Legacy-2019-Offline/server/animation/414827163ad4eb60/go_full.swf",
             width: "100%",
             height: "100%",
             align: "middle",
@@ -524,7 +524,7 @@ function loadLegacyPreview() {
     createPreviewPlayer("playerdiv", {
         height: 360,
         width: 640,
-        player_url: "/static/animation/player.swf",
+        player_url: "https://josephcrosmanplays532.github.io/Vyond-Legacy-2019-Offline/server/animation/414827163ad4eb60/player.swf",
         quality: "medium"
     }, {
         movieOwner: "", movieOwnerId: "", movieId: "", ut: "-1",
@@ -533,7 +533,7 @@ function loadLegacyPreview() {
         autostart: "1", appCode: "go", is_slideshow: "0", originalId: "0", is_emessage: "0", isEmbed: "0", refuser: "",
         utm_source: "", uid: "", isTemplate: "1", showButtons: "0", chain_mids: "", showshare: "0", averageRating: "",
                     s3base: "https://s3.amazonaws.com/fs.goanimate.com/,https://assets.vyond.com/",
-                ratingCount: "", fb_app_url: "/", numContact: 0, isInitFromExternal: 1, storePath: "/static/store/<store>", clientThemePath: "/static/<client_theme>", animationPath: "/static/animation/",
+                ratingCount: "", fb_app_url: "/", numContact: 0, isInitFromExternal: 1, storePath: "https://josephcrosmanplays532.github.io/Vyond-Legacy-2019-Offline/server/store/3a981f5cb2739137/<store>", clientThemePath: "https://josephcrosmanplays532.github.io/Vyond-Legacy-2019-Offline/server/static/ad44370a650793d9/<client_theme>", animationPath: "https://josephcrosmanplays532.github.io/Vyond-Legacy-2019-Offline/server/animation/414827163ad4eb60/",
         startFrame: previewStartFrame
     });
     $('#previewPlayer').removeClass('using-h5');
