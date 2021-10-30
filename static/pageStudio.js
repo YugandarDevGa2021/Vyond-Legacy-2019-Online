@@ -37,7 +37,7 @@ module.exports = function (req, res, url) {
 					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 
 					'retut': 1, 'tray': 'custom',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
-					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 
+					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'freeTrial': '1',
 					'nextUrl': 'https://action-ouranimate.herokuapp.com/login?returnTo=/yourvideos',
 				},
 				allowScriptAccess: 'always',
