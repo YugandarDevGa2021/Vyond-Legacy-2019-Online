@@ -32,10 +32,16 @@ function processVoice(voiceName, text) {
 			}
 			case 'cepstral':
 			case 'voiceforge': {
+				https.get('https://www.voiceforge.com/demo', r => {
+					const cookie = r.headers['set-cookie'];
+					var q = qs.encode({
+						voice: voice.arg,
+						voiceText: text,
+					});
 					var buffers = [];
 					var req = https.get({
-						host: 'action-ouranimate.herokuapp.com',
-						path: `/revive/voiceforge/speech.php?${q}`,
+						host: 'www.voiceforge.com',
+						path: `/demos/createAudio.php?${q}`,
 						headers: { Cookie: cookie },
 						method: 'GET',
 					}, r => {
@@ -45,7 +51,7 @@ function processVoice(voiceName, text) {
 							const beg = html.indexOf('id="mp3Source" src="') + 20;
 							const end = html.indexOf('"', beg);
 							const loc = html.subarray(beg, end).toString();
-							get(`https://action-ouranimate.herokuapp.com${loc}`).then(res).catch(rej);
+							get(`https://www.voiceforge.com${loc}`).then(res).catch(rej);
 						})
 					});
 				});
