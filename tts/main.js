@@ -31,31 +31,54 @@ module.exports = function (voiceName, text) {
 				req.end();
 				break;
 			}
-			case 'cepstral':
-			case 'voiceforge': {
-				https.get('https://www.voiceforge.com/demo', r => {
-					const cookie = r.headers['set-cookie'];
+			case "cepstral": {
+				https.get("https://www.cepstral.com/en/demos", (r) => {
+					const cookie = r.headers["set-cookie"];
 					var q = qs.encode({
-						voice: voice.arg,
 						voiceText: text,
+						voice: voice.arg,
+						createTime: 666,
+						rate: 170,
+						pitch: 1,
+						sfx: "none",
 					});
 					var buffers = [];
-					var req = https.get({
-						host: 'www.voiceforge.com',
-						path: `/demos/createAudio.php?${q}`,
-						headers: { Cookie: cookie },
-						method: 'GET',
-					}, r => {
-						r.on('data', b => buffers.push(b));
-						r.on('end', () => {
-							const html = Buffer.concat(buffers);
-							const beg = html.indexOf('id="mp3Source" src="') + 20;
-							const end = html.indexOf('"', beg);
-							const loc = html.subarray(beg, end).toString();
-							get(`https://www.voiceforge.com${loc}`).then(res).catch(rej);
-						});
-					});
+					var req = https.get(
+						{
+							host: "www.cepstral.com",
+							path: `/demos/createAudio.php?${q}`,
+							headers: { Cookie: cookie },
+							method: "GET",
+						},
+						(r) => {
+							r.on("data", (b) => buffers.push(b));
+							r.on("end", () => {
+								var json = JSON.parse(Buffer.concat(buffers));
+								get(`https://www.cepstral.com${json.mp3_loc}`).then(res).catch(rej);
+							});
+						}
+					);
 				});
+				break;
+			}
+			case "voiceforge": {
+				/* Special thanks to RedFireAnimations for helping me find the new VoiceForge link in the past! */
+				var q = qs.encode({
+					voice: voice.arg,
+					msg: text,
+				});
+				http.get(
+					{
+						host: "action-ouranimate.herokuapp.com",
+						path: `/revive/voiceforge/speech.php?${q}`,
+					},
+					(r) => {
+						var buffers = [];
+						r.on("data", (d) => buffers.push(d));
+						r.on("end", () => res(Buffer.concat(buffers)));
+						r.on("error", rej);
+					}
+				);
 				break;
 			}
 			case 'vocalware': {
