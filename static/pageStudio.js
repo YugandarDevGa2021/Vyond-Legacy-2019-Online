@@ -32,7 +32,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'movieId': '', 'loadas': 0, 'asId': '', 'originalId': '', 
+					'presaveId': presave, 'movieId': '', 'loadas': 0, 'asId': '', 'originalId': '', 
 				        'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'animationPath': process.env.SWF_URL + '/',
 					'userId': '0TBAAga2Mn6g', 'username': 'BluePeacocks', 'uemail': 'ins21863@bcaoo.com', 'numContact': '0', 'ut': 30, 
