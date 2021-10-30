@@ -1,5 +1,5 @@
-# OurAnimate GoAPI
-GoAPI server for OurAnimate. this is the squeal to the Old GoAnimate with an account system & lvm itself with Node.js
+# Vyond Legacy 2019 Online
+LVM Project that revives the legacy video maker including some ways some goanimators tried to get the legacy video maker back. this even comes with the vyond free trial watermark. preview window included!
 ## How to Use
 To access this service, install [Node.JS](https://nodejs.org/en/) then clone/download this project.	Once done, unzip the folder, copy the path, and execute the following commands in your command prompt (where `{PATH}` is the folder path you copied):
 ```console
