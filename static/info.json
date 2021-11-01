@@ -9,7 +9,7 @@
 		},
 		"/html/list.html": {
 			"headers": {
-				"Location": "https://action-ouranimate.herokuapp.com/charactercreator"
+				"Location": "https://action-ouranimate.herokuapp.com/charactercreator/whiteboard?style=vyond-legacy&type=man"
 			},
 			"statusCode": 302,
 			"content": ""
