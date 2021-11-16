@@ -7,6 +7,26 @@ module.exports = function (voiceName, text) {
 	return new Promise((res, rej) => {
 		const voice = voices[voiceName];
 		switch (voice.source) {
+			case "nextup": {
+				https.get("https://nextup.com/ivona/index.html", (r) => {
+					var q = qs.encode({
+						voice: voice.arg,
+						language: `${voice.language}-${voice.country}`,
+						text: text,
+					});
+					var buffers = [];
+					https.get(`https://nextup.com/ivona/php/nextup-polly/CreateSpeech/CreateSpeechGet3.php?${q}`, (r) => {
+						r.on("data", (d) => buffers.push(d));
+						r.on("end", () => {
+							const loc = Buffer.concat(buffers).toString();
+							if (!loc.startsWith("http")) rej();
+							get(loc).then(res).catch(rej);
+						});
+						r.on("error", rej);
+					});
+				});
+				break;
+			}
 			case 'polly': {
 				var buffers = [];
 				var req = https.request({
