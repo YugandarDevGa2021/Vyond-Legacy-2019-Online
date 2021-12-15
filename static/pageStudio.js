@@ -672,7 +672,7 @@ function loadLegacyPreview() {
     pauseH5PreviewPlayer();
 
     savePreviewData(movieDataXmlStr);
-    document.getElementById('playerdiv').innerHTML = '<iframe width="640" height="360" src="/player?movieId="${params.flashvars.presaveId}"></iframe>';
+    document.getElementById('playerdiv').innerHTML = '<iframe width="640" height="360" src="/player?movieId=${params.flashvars.presaveId}"></iframe>';
     }
 
 function initPreviewPlayer(dataXmlStr, startFrame, containsChapter, themeList) {
